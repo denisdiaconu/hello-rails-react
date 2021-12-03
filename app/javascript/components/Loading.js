@@ -1,12 +1,5 @@
-import React from "react"
-import PropTypes from "prop-types"
-class Loading extends React.Component {
-  render () {
-    return (
-      <React.Fragment>
-      </React.Fragment>
-    );
-  }
-}
+import React from "react";
 
-export default Loading
+const Loading = () => <div className='indicator'></div>;
+
+export default Loading;
